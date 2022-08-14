@@ -52,11 +52,11 @@ function ExchangeComponent() {
                     </label>
                     <input type="text" value={from} onChange={e => setFrom(e.target.value)} className={isActive ? "bg-slate-400 opacity-0 border-b-2 uppercase cursor-default" : "bg-slate-800 border-b-2  uppercase "}></input>
                 </div>
-                <div className={isActive ? 'opacity-0 flex flex-col gap-3' : 'flex flex-col gap-3'}>
+                <div className={isActive ? 'opacity-0 flex flex-col gap-3 cursor-default' : 'flex flex-col gap-3'}>
                     <label>TO</label>
                     <input type="text" value={to} onChange={e => setTo(e.target.value)} className=" bg-slate-800 border-b-2  uppercase"></input>
                 </div>
-                <div className={isActive ? 'opacity-0 flex flex-col gap-3' : 'flex flex-col gap-3'}>
+                <div className={isActive ? 'opacity-0 flex flex-col gap-3 cursor-default' : 'flex flex-col gap-3'}>
                     <label>AMOUNT</label>
                     <input type="number" value={amount} onChange={e => setAmount(e.target.value)} className=" bg-slate-800 border-b-2  uppercase"></input>
                 </div>
