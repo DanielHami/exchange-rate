@@ -26,7 +26,7 @@ function ExchangeComponent() {
             axios.get(url, {
                 method: 'get',
                 redirect: 'follow',
-                headers: { 'apikey' : `${process.env.REACT_APP_KEY}` },
+                headers: { 'apikey' : 'y8oT68AQGd7v4i9fKWHQhsms4ItzANZ5' },
             })
                 .then(function (response) {
                     console.log(response);
